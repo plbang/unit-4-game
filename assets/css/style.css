@@ -1,0 +1,68 @@
+h1 {
+    margin-top: 150px;
+    margin-bottom: 50px;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+p {
+    color: rgb(196, 196, 196);
+    font-size: 25px;
+    text-align: center;
+    margin: 0 50px 0 50px;
+}
+
+#goalNumber {
+    margin-top: 150px;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+
+#totalScore {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+#gem1, #gem2, #gem3, #gem4 {
+    height: 100px;
+    width: 100px;
+}
+
+.container {
+    margin: auto;
+    width: 75%;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+
+.column {
+    float: right;
+    width: 22%;
+    padding: 1px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+body {
+    background: url("../images/background.jpg");
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.counter {
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+
